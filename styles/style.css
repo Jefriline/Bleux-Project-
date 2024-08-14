@@ -141,6 +141,12 @@ header nav a {
 
 }
 
+#img-position{
+    width: 7%;
+    position: absolute;
+    top: 96%;
+}
+
 .Title-Functionalities{
     text-align: center;
     color: #e91e63; 
@@ -409,6 +415,10 @@ footer span {
     .image-Functionalities img {
         display: none;
     }
+    #img-position{
+        left: 80%;
+        width: 15%;
+    }
 }
 @media (max-width:578px){
     #button-two {
@@ -416,6 +426,9 @@ footer span {
     }
     .Product-page .buttons {
         margin-bottom: 4%;
+    }
+    #img-position{
+        width: 15%;
     }
 }
 
@@ -436,5 +449,9 @@ footer span {
     }
     header img {
         margin-left: 0; 
+    }
+    #img-position{
+        top: 215%;
+        right: 80%;
     }
 }
